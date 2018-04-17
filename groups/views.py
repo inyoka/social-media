@@ -8,6 +8,8 @@ PermissionRequiredMixin)
 from django.core.urlresolvers import reverse
 from django.views import generic
 
+from groups.models import Group, GroupMember
+
 class CreateGroup(LoginRequiredMixin, generic.CreateView):
     fields = ('name','description')
     model = Group
