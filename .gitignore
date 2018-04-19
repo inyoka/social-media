@@ -101,3 +101,5 @@ ENV/
 .mypy_cache/
 *.sqlite3
 accounts/migrations/0001_initial.py
+groups/migrations/0001_initial.py
+posts/migrations/0001_initial.py
