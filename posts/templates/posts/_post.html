@@ -14,8 +14,9 @@
     <div class="media-footer">
       {% if user.is_authenticated and post.user == user %}
       <a href="{% url 'posts:delete' pk=post.pk %}" title="delete" class="btn btn-simple">
-        <i class="icon-remove text-danger" aria-hidden="true"></i>
-        <i class="icon-label text-danger">Delete</i>
+        <i class="fas fa-minus-circle" aria-hidden="true"></i>
+        <span class="text-danger icon-label">Delete</span>
+
       </a>
       {% endif %}
     </div>

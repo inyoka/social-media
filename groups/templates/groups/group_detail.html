@@ -7,9 +7,8 @@
 <div class="content">
   {% if user in group.members.all %}
 
-    <a href="{% url 'groups:leave' slug=group.slug %}"
-    class="btn btn-lg btn-fill btn-warning"><i
-    class="icon-remove-circle"></i>Leave</a>
+    <a href="{% url 'groups:leave' slug=group.slug %}" class="btn btn-lg btn-fill btn-warning"><i class="fas fa-sign-out-alt"></i>  Leave Group</a>
+
 
     {% else %}
 
