@@ -1,6 +1,6 @@
-# Social Media Site Clone Project
+# Social Media Site 
 
-### Django Full Stack Web Developer Bootcamp!
+### Social Media Site using Django from the Full Stack Web Developer Bootcamp!
 
 * Multi-User Social Media Site
 * Part of a course to build websites with HTML, CSS, Bootstrap 3, Javascript, jQuery, Python 3 and Django 1.11
